@@ -38,6 +38,7 @@ before_script:
 
 script:
   - mvn clean install -e
+  
 notifications:
      email:
          recipients:

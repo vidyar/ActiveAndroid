@@ -38,3 +38,10 @@ before_script:
 
 script:
   - mvn clean install -e
+notifications:
+     email:
+         recipients:
+             - buildsampletest@gmail.com
+             - vidyac.raghav@gmail.com
+         on_success: change
+         on_failure: always
